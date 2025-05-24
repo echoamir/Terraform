@@ -6,27 +6,27 @@ This repository contains modular Terraform configurations to manage infrastructu
 
 ## 📁 Project Structure
 
-
+```bash
+.
 ├── AWS
-│   ├── main.tf
-│   └── providers.tf
+│   └── Create-EC2
+│       ├── main.tf
+│       └── providers.tf
 ├── Cloudflare
-│   ├── main.tf
-│   ├── providers.tf
-│   └── variables.tf
+│   ├── main.tf
+│   ├── providers.tf
+│   └── variables.tf
 ├── Minio
-│   ├── main.tf
-│   ├── output.tf
-│   ├── providers.tf
-│   └── variables.tf
+│   ├── main.tf
+│   ├── output.tf
+│   ├── providers.tf
+│   └── variables.tf
 ├── Nginx-Container
-│   ├── main.tf
-│   ├── provider.tf
-│   ├── variables.tf
-│   └── version.tf
+│   ├── main.tf
+│   ├── provider.tf
+│   ├── variables.tf
+│   └── version.tf
 └── README.md
-
-
 
 ---
 
