@@ -27,7 +27,7 @@ This repository contains modular Terraform configurations to manage infrastructu
 │   ├── variables.tf
 │   └── version.tf
 └── README.md
-
+```
 ---
 
 ## 📦 Modules Overview
