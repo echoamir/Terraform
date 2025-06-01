@@ -6,7 +6,7 @@ variable "network_name" {
 
 variable "db_image" {
   type        = string
-  default     = "mysql:5.7"
+  default     = "mysql:8.4.5"
   description = "Mysql container image"
 }
 
@@ -30,20 +30,20 @@ variable "db_rootpaas" {
 
 variable "db_database" {
   type        = string
-  default     = "DockerMe"
+  default     = "wordpress"
   description = "Mysql wordpress database"
 }
 
 variable "db_username" {
   type        = string
-  default     = "MeCan"
+  default     = "dbuser"
   description = "Mysql username"
 }
 
 variable "db_password" {
   type        = string
   default     = "sdfwewesdfsseweekjklada"
-  description = "Mysql MeCan user password"
+  description = "Mysql user password"
 }
 
 variable "db_volume" {

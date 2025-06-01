@@ -48,7 +48,7 @@ resource "docker_container" "wordpress" {
 
   ports {
     internal = 80
-    external = 8080
+    external = 8880
   }
   volumes {
     volume_name = docker_volume.wp_volume.name
