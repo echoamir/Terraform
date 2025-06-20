@@ -49,7 +49,7 @@ variable "db_password" {
 variable "db_volume" {
   type        = string
   default     = "db_data"
-  description = "Mysql data volumes"
+  description = "Mysql data volume"
 }
 
 variable "db_mount_path" {
@@ -61,7 +61,7 @@ variable "db_mount_path" {
 variable "wp_image" {
   type        = string
   default     = "wordpress:latest"
-  description = "Wordpress image name"
+  description = "Wordpress image"
 }
 
 variable "wp_container_name" {
@@ -79,7 +79,7 @@ variable "wp_hostname" {
 variable "wp_volume" {
   type        = string
   default     = "wp_data"
-  description = "Wordpress data volumes"
+  description = "Wordpress data volume"
 }
 
 variable "wp_mount_path" {
