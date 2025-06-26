@@ -10,7 +10,6 @@ resource "minio_iam_user" "my_user" {
 resource "minio_iam_policy" "my_policy" {
   name = var.policy_name
 
-  # Assuming you can define preferences directly in the policy property
   policy = <<EOF
 {
   "Version": "2012-10-17",
