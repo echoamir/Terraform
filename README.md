@@ -29,7 +29,7 @@ This repository contains modular Terraform configurations to manage infrastructu
 ```
 ---
 
-## 📦 Modules Overview
+##  Modules Overview
 
 ### 🔹 `AWS/Create-EC2`
 
@@ -43,7 +43,7 @@ This module provides Infrastructure as Code (IaC) configurations to deploy and m
 
 This module manages Cloudflare DNS records and domain settings. It allows automated creation and configuration of multiple domains with various DNS record types (A, CNAME, TXT, etc.).
 
-> ✅ **Use Case:** Automated domain and DNS management via the Cloudflare API.
+>  **Use Case:** Automated domain and DNS management via the Cloudflare API.
 
 ---
 
@@ -51,7 +51,7 @@ This module manages Cloudflare DNS records and domain settings. It allows automa
 
 This module connects to an existing MinIO server and manages user accounts and bucket configurations. It supports provisioning access credentials and setting up storage buckets through Terraform.
 
-> ✅ **Use Case:** Infrastructure-as-code for MinIO bucket and access management.
+> **Use Case:** Infrastructure-as-code for MinIO bucket and access management.
 
 ---
 
@@ -59,11 +59,11 @@ This module connects to an existing MinIO server and manages user accounts and b
 
 This module is designed for deploying Docker-based Nginx containers. It handles provider configurations and container provisioning, enabling reproducible container infrastructure for web servers or reverse proxies.
 
-> ✅ **Use Case:** Lightweight container deployment of Nginx using Terraform + Docker provider.
+>  **Use Case:** Lightweight container deployment of Nginx using Terraform + Docker provider.
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 - Terraform v1.3+
 - AWS CLI (for AWS modules)
@@ -73,7 +73,7 @@ This module is designed for deploying Docker-based Nginx containers. It handles 
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. Clone the repository:
    ```bash
