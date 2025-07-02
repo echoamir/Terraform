@@ -31,7 +31,7 @@ This repository contains modular Terraform configurations to manage infrastructu
 
 ##  Modules Overview
 
-### 🔹 `AWS/Create-EC2`
+### 🔹 `AWS`
 
 This module provides Infrastructure as Code (IaC) configurations to deploy and manage EC2 instances on AWS. It includes provider setup and instance specifications, enabling automated provisioning of virtual machines and related resources through Terraform.
 
