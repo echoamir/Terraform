@@ -42,7 +42,7 @@ variable "db_username" {
 
 variable "db_password" {
   type        = string
-  default     = "sdfwewesdfsseweekjklada"
+  default     = "6fmxLF2NVfJy8LfnHxtTKGDJHDIUGx1ocKMh0dJe7W02gTasVk"
   description = "Mysql user password"
 }
 
