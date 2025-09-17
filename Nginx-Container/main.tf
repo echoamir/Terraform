@@ -1,4 +1,4 @@
-resource "docker_container" "MeCan" {
+resource "docker_container" "Ngix-Container" {
   name     = var.container_name
   image    = var.container_image
   hostname = var.container_hostname
