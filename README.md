@@ -9,8 +9,11 @@ This repository contains modular Terraform configurations to manage infrastructu
 ```bash
 .
 ├── AWS
-│       ├── main.tf
-│       └── providers.tf
+│       ├── Create-EC2
+│       └── CreateNginxContainer
+         .
+         . 
+         . 
 ├── Cloudflare
 │   ├── main.tf
 │   ├── providers.tf
